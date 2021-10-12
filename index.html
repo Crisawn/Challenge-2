@@ -1,137 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Portfolio</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale 1.0">
+        <title>Cristian Professional Portfolio</title>
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+
+    <body>
+        <!--  navigation  -->
         <header>
-            <h1>
-                Cristian Perez
-            </h1>
+            <h1>Cristian</h1>
             <nav>
                 <ul>
                     <li>
-                        <a href="#about-me">About Me</a>
+                        <a href="#about-me"><span>About Me</span></a>
                     </li>
                     <li>
-                        <a href="#projects">Creations</a>
+                        <a href="#work"><span>Work</span></a>
                     </li>
                     <li>
-                        <a href="#contact">Contact Info</a>
+                        <a href="#contact-me"><span>Contact Me</span></a>
+                    </li>
+                    <li>
+                        <a href="./comingsoon.html" target="_blank"><span>Resume</span></a>
                     </li>
                 </ul>
             </nav>
         </header>
 
-
-        <!-- Hero -->
+        <!-- hero/jumbotron -->
         <section class="hero">
-            <h2>
-                Time to get to work!
-            </h2>
-
+            <h2>Let's code!</h2>
         </section>
 
-
-    <div>
-
-        <!-- about me SECTION -->
-        <section class ="about-me section" id="about-me">
-            <h2 class="section-title">
-                About</br>Me
-            </h2>
+        <!-- about me section-->
+        <section id="about-me" class="about">
             <div>
-                <img src="./assets/images/self.jpg" alt="Picture of Me" class="about-pic">
+                <h3 class="section-title">About<br />Me</h3>
             </div>
 
-            <div class="section-input">
-                
+            <div class="about-img">
+                <img src="assets/css/img/me.jpg">
+            </div>
+
+            <div class="about-content">
                 <p>
-                    Going through life, I never really found something I wanted to do. My first major at Tri-C was IT Networking, and i was interested in it... unfortunately I don't think I had the attention span for college back then. I changed majors one or two more times before I stopped going. Working in nursing homes, getting into the pipefitters union, never really felt a passion for any of that, I am on my computer a lot though. Someone got to talking to me about them changing careers and they mentioned this bootcamp that they did. The more I read into the program, and coding itself, the more videos I started watching on youtube, the more interested I became. Why wouldn't I be interested in how these things I use everyday get made and maintained. 
-                </br>
-                </br>
-                    I feel like I have finally found something to be passionate about. Even though I have just barely started learning and it is very hard and confusing to me right now, I've never been more motivated to succeed in anything ever before. I am looking forward to sharing my future projects with you as I grow and learn in this industry. 
+                  Cristian Perez is a 28-year-old Austin native. Although he has lived in Austin, he believes there is still a lot of the city to explore. Cristian has a full-time job
+                  and is currently enrolled in the coding bootcamp at the University of Texas.
                 </p>
+                <br />
+                <p>
+                   Cristian has 6 years of management experience. Cristian has led teams with up to 65 members at a logistics company. Cristian's current role deals with customers and deliveries.
+                   In his new endeavour, Cristian hopes to be able to work in the STEM field. 
+                </p>
+            </div>
+        </section>
 
+        <!-- work section-->
+        <section id="work" class="work">
+            <div>
+                <h3 class="section-title">Work</h3>
+            </div>
+
+            <div class="grid-container">
+
+                <div class="grid-item project-one">
+                   <h4>Project 1
+                       <br />
+                       <span>Run-Buddy</span>
+                   </h4>
+                   <a class="imglink" href="https://crisawn.github.io/run-buddy/" target="_blank" title="Run-Buddy">Test</a>
                 </div>
-            </div>
 
-        </section>
+                <div class="grid-item project-two">
+                    <h4>Project 2
+                        <br />
+                        <span>Placeholder</span>
+                    </h4>
+                    <a class="imglink" href="https://github.com/" target="_blank" title="TBD">Test</a>
+                 </div>
 
+                 <div class="grid-item project-three">
+                    <h4>Project 3
+                        <br />
+                        <span>Placeholder</span>
+                    </h4>
+                    <a class="imglink" href="https://github.com/" target="_blank" title="TBD">Test</a>
+                 </div>
 
-        <!--- projects SECTION -->
-        <section class="section" id="projects">
-            <h2 class="section-title">
-                Creations
-            </h2>
-            <div class="project-block">
-                <div class="grid-form">
-                    <a href="https://GinleyP87.github.io/run-buddy/" target= "_blank" class="project-1 pic-link" >
-                        <img src="./assets/images/run-buddy.jpg" alt="Run Buddy Website" class="pic" />
-                        <div class="pic-text">
-                            <h3>Run Buddy</h3>
-                        </div>
-                    </a>
-                    <a href="https://GinleyP87.github.io/horiseon-refrac/"  target="_blank" class="project-2 pic-link">
-                        <img src="./assets/images/horiseon.jpg" alt="Horiseon Code Reracture" class="pic" />
-                        <div class="pic-text">
-                            <h3>
-                                Horiseon Code Refractor
-                            </h3>
-                        </div>
-                    </a>
-                    <a href ="https://awolrob.github.io/Project1/" target="_blank" class="project-3 pic-link">
-                        <img src="./assets/images/can-i-camp.jpg" alt="Can-I-Camp" class="pic" />
-                        <div class="pic-text">
-                            <h3>
-                                Can I Camp
-                            </h3>
-                        </div>
-                    </a>   
-                    <a href="https://secret-everglades-56686.herokuapp.com/"  target="_blank" class="project-4 pic-link">
-                        <img src="./assets/images/blue-42.png" alt="blue-42" class="pic" />
-                        <div class="pic-text">
-                            <h3>
-                                Blue 42
-                            </h3>
-                        </div>
-                    </a>
-                    <a href ="./assets/images/future.jpg" target="_blank" class="project-5 pic-link">
-                        <img src="./assets/images/future.jpg" alt="Future Project" class="pic" />
-                        <div class="pic-text">
-                            <h3>
-                                Coming soon...
-                            </h3>
-                        </div>
-                    </a>
-                </div>
-            </div>
+                
 
-        </section>
-
-
-        <!-- contact SECTION -->
-        <section class="section-contact" id="contact">
-            <h2 class="section-title">Contact</br>Info
-            </h2>
-            <div class="info">
-                <a href="mailto:patginleyjr@gmail.com" target="_blank">patginleyjr@gmail.com</a>
-                <a href="tel:2169701542" target="_blank">(216)970-1542</a>
-                <a href="https://github.com/GinleyP87" target="_blank"> GitHub</a>
-                <a href="https://www.linkedin.com/in/patrick-ginley-274746211/" target="_blank">LinkdIn</a>
             </div>
         </section>
-    </div>
 
-    <footer>
-        <div>
-            <h3>Cristian Perez</h3>
-        </div>
-    </footer>
+        <!-- contact/footer -->
+        <footer id="contact-me">
+            
+                <h3 class="section-title footer">Contact Me</h3>
 
-</body>
+            <nav>
+                <ul>
+                    <li><span>512.555.5555</span></li>
+                    <li><span>email</span></li>
+                    <li><a href="https://github.com/Crisawn" target="_blank"><span>Github</span></a></li>
+                    <li><a href="https://www.linkedin.com" target="_blank"><span>LinkedIN</span></a></li>
+                </ul>
+            </nav>
+        </footer>
+
+    </body>
 </html>
