@@ -6,7 +6,7 @@
 
 body {
     color:#455671;
-    background-color: #F4F3F2;
+    background-color: #f0e9e3;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif;
 }
 
@@ -60,8 +60,8 @@ header nav ul li a span {
 /* HERO/JUMBOTRON */
 
 .hero {
-    height: 300px;
-    background-image: url(img/hero.jpg);
+    height: 200px;
+    background-image: url("img/hero.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -99,7 +99,7 @@ header nav ul li a span {
 }
 
 .about h3 {
-    height: 30vh;
+    height: 20vh;
 }
 
 .about-img {
@@ -290,20 +290,6 @@ footer nav ul li a span {
         grid-column-end: 2;
         grid-row-start: 3;
         grid-row-end: 4;
-    }
-    
-    .project-four {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 4;
-        grid-row-end: 5;
-    }
-    
-    .project-five {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 5;
-        grid-row-end: 6;
     }
 
  
